@@ -1,9 +1,9 @@
 # Currency-Exchange
-Currency exchange app displays real-time currency rates. This is an Android app developed in Kotlin using Android Studio, focusing on creating a polished user experience with a modern and intuitive GUI, providing a currency converter to convert more than 150 currencies implemented in MVVM Architecture.
+Currency exchange app displays real-time currency rates. This is an Android app developed in Kotlin using Android Studio, focusing on creating a complete user experience with a modern and intuitive GUI, providing a currency converter with default currency EUR to convert more than 150 currencies implemented in MVVM Architecture.
 
 ## Features:
 - Display real-time currency rates.
-- Use the API generated directly from https://exchangeratesapi.io/
+- Use the API generated directly from https://exchangeratesapi.io/ (Due to API limitations, only EUR to other currencies can be converted.)
 - Provide a currency converter to convert over 150 currencies.
 - User-friendly Interface: Experience smooth and intuitive user interface, ensuring ease of use.
 
@@ -38,3 +38,4 @@ Currency exchange app displays real-time currency rates. This is an Android app 
 - implementation ("com.airbnb.android:lottie:6.3.0")
 
 ## Link screenshots and videos
+https://drive.google.com/drive/folders/1lw0oVXHXMgIujN-qeNp7I9Xj0REzan5Z?usp=sharing
