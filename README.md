@@ -1,4 +1,4 @@
-# Currency-Exchange
+# Currency-Converter
 Currency exchange app displays real-time currency rates. This is an Android app developed in Kotlin using Android Studio, focusing on creating a complete user experience with a modern and intuitive GUI, providing a currency converter with default currency EUR to convert more than 150 currencies implemented in MVVM Architecture.
 
 ## Features:
