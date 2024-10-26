@@ -8,6 +8,29 @@ Currency exchange app displays real-time currency rates. This is an Android app 
 - User-friendly Interface: Experience smooth and intuitive user interface, ensuring ease of use.
 
 ## Library and Technology
+//Note
+
+To make sure there are no problems, edit a few places in build.gradle.kts, the plugins and kapt I added below.
+
+plugins {
+
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+    id("dagger.hilt.android.plugin")
+    kotlin("kapt")
+    id ("kotlin-android")
+    id ("kotlin-parcelize")
+    id("com.google.dagger.hilt.android")
+    
+}
+
+kapt {
+
+    correctErrorTypes = true  
+    
+}
+
 //Retrofit
 - implementation("com.squareup.retrofit2:retrofit:2.9.0")
 - implementation("com.squareup.retrofit2:converter-gson:2.9.0")
